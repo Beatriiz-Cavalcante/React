@@ -242,7 +242,7 @@
     flex-direction: column;
     color: #fff;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; /*se o texto for maior que o espaço disponível ele sera cortado e exibido com reticências*/
     white-space: nowrap;
     min-height: 62px;
   }
@@ -250,7 +250,7 @@
   .card-text a {
     display: inline-block;
     max-width: 100%;
-    vertical-align: middle;
+    vertical-align: middle; /*alinhamento vertical centralizado*/
   }
   
   .artist-name {
