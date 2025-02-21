@@ -17,5 +17,7 @@
     --color-gray-900: #0F1216;
 
     --font-heading: var(--font-oxanium);
-    --font-sans: var(--font-montserrat); //sans o tailwind entende como padrão
+    --font-sans: var(--font-montserrat); /*sans o tailwind entende como padrão*/
+
+    --radius-xl: 0.625rem;
 }
